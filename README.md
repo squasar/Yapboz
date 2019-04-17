@@ -20,7 +20,7 @@ WHAT DID I DO?...<br />
 
 FUTURE WORKS<br />
 <br />
-**The aim is improving visual mind by NOT bothering the users.(I know many people don't like puzzles)<br />
+**The aim is improving visual mind by NOT bothering the users. (I know many people don't like puzzles)<br />
 **Turn this project into a base of a framework which can be useful in similar projects in near future<br />
 
 <br />
