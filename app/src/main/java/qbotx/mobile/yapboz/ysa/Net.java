@@ -118,7 +118,7 @@ public class Net {
     public double get_i_inci_noron_ciktisi(int i){
         return network_islemleri.get_noronlarin_ciktilari()[network_islemleri.get_katman_sayisi()-1][i];
     }
-    // hata oranini al
+    //  hata oranini al
     public double get_hata_orani(double [] hedef){
         return network_islemleri.risk_hata_hesabi(hedef);
     }
