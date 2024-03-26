@@ -5,6 +5,7 @@
  */
 package qbotx.mobile.yapboz.ysa;
 
+import java.security.SecureRandom;
 import java.util.Random;
 
 /**
@@ -33,7 +34,7 @@ public class NetworkIslemleri {
     }
     
     private double get_rasgele_double_sayi(double alt_sinir, double ust_sinir){
-       return  (double) alt_sinir + new Random().nextDouble() * (ust_sinir - alt_sinir);
+       return  (double) alt_sinir + new SecureRandom().nextDouble() * (ust_sinir - alt_sinir);
        //return new Random().nextDouble();
     }
     
