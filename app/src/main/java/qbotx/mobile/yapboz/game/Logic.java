@@ -8,6 +8,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
+import java.security.SecureRandom;
 import java.util.Random;
 import qbotx.mobile.yapboz.R;
 
@@ -32,7 +33,7 @@ public class Logic {
         //obj.getLevel().set_cozum_resimler(obj.get_split().get_sub_matrices());
 
         //rasgele resim bos resim yapiliyor...
-        Random r = new Random();
+        Random r = new SecureRandom();
         int sayac_one = r.nextInt((int) Math.sqrt(howMany)-1) + 1;
         int sayac_two = r.nextInt((int) Math.sqrt(howMany)-1) + 1;
 
