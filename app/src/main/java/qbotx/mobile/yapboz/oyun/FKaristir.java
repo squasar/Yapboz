@@ -6,6 +6,7 @@
 package qbotx.mobile.yapboz.oyun;
 
 import java.io.Serializable;
+import java.security.SecureRandom;
 import java.util.Random;
 
 /**
@@ -94,7 +95,7 @@ public class FKaristir implements Serializable {
     
     private void yon_belirle(){
         
-            Random r = new Random();
+            Random r = new SecureRandom();
             int rasgele;
             int rasgele_yon;
             int temp,in;
