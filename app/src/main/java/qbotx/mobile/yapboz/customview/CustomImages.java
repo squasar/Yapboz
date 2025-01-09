@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
+import java.security.SecureRandom;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -52,7 +53,7 @@ public class CustomImages {
         imageViews=splitImage.getSubImages();
 
         //rasgele resim bos resim yapiliyor...
-        Random r = new Random();
+        Random r = new SecureRandom();
         int sayac = r.nextInt(howMany-1) + 1;
         imageViews.get(sayac-1).set_resimler(0);
         imageViews.get(sayac-1).getImageView().setImageBitmap(null);
